@@ -1,49 +1,62 @@
 
 # TravelWorld 🌍
 
-A Fullstack Tours & Travels Web App Using MERN Stack 💫
+A Fullstack Tours & Travels Web App Using MERN Stack
 
-## Backend Repository
+## Features
 
-- [TravelWorld Backend Repository](https://github.com/shuence/Bakend-for-TravelWorld)
+- **Tours Listing:** Display a list of available tours for users to explore.
+- **Tour Details:** View detailed information about each tour.
+- **User Authentication:** Register and login functionality for users.
+- **Booking System:** Book tours with ease.
+- **AI Itinerary Generator:** Get personalized travel plans.
 
-## Resources
+## Getting Started
 
-- [React Docs](https://beta.reactjs.org/)
-- [BootStrap](https://getbootstrap.com/docs/)
-- [ReactStrap](https://github.com/reactstrap/reactstrap)
-- [Stackoverflow](https://stackoverflow.com/)
+### Prerequisites
 
-## Authors
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB (for local development)
 
-- [@Shuence](https://www.github.com/shuence) 💫
+### Installation
 
-## Badges
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Mathew-Rym/travelworld.git
+   cd travelworld
+   ```
 
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-## Live Preview
+3. Set up environment variables
+   Create a `.env` file in the root directory and add:
+   ```
+   REACT_APP_BASE_URL=http://localhost:4000/api/v1
+   ```
 
-[TravelWorld 🌍](https://travelworldtours.netlify.app/)
+4. Start the development server
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-![image](https://github.com/shuence/FitClub/assets/65482186/4c863ee9-2e02-4e98-95c0-e122cf91320e)
+## Technologies Used
 
-<https://github.com/shuence/Travel-World/assets/65482186/69a5ebf9-85d7-4f65-a8a2-066dceebbc24>
+- **Frontend:** React, React Router, Reactstrap, FontAwesome
+- **State Management:** React Context API
+- **Styling:** CSS3, Bootstrap 5
+- **Icons:** FontAwesome, React Icons
 
-## Setup
+## License
 
-To Setup this project run
-
-```bash
-git clone <https://github.com/shuence/Travel-World>
-cd Travel-World
-yarn
-yarn serve
-```
-
-## Environment Variables
-
-`REACT_APP_BASE_URL`= <http://localhost:4000/api/v1>
+This project is licensed under the MIT License.
 
 ## Features
 
