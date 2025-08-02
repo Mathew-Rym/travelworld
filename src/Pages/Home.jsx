@@ -15,6 +15,7 @@ import Testimonials from '../Components/Testimonials/Testimonials'
 import Newsletter from '../Shared/Newsletter'
 import Contact from './Contact'
 import FeaturedBlogsList from '../Components/FeaturedBlogs.jsx/FeaturedBlogsList'
+import AIItinerarySearch from '../Components/AIItinerarySearch/AIItinerarySearch'
 
 const Home = () => {
   return (
@@ -33,11 +34,13 @@ const Home = () => {
                 <span className="highlight">Memories</span>
               </h1>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies.
-              Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris. 
+              Discover the breathtaking beauty of Kenya with our expertly crafted tours. From the vast savannas of the Maasai Mara to the pristine beaches of Diani, we create unforgettable travel experiences that connect you with the heart and soul of Africa.
               </p>
             </div>
+            
+            {/* AI Itinerary Search Section */}
+            <AIItinerarySearch />
+            
           </Col>
           <Col lg="2">
             <div className="hero__img-box">
@@ -89,9 +92,7 @@ const Home = () => {
             <div className="experience__content">
               <Subtitle subtitle={"Experience"}/>
               <h2>Will our all experience <br /> we will serve you</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                <br />
-                 Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
+              <p>With over a decade of experience in Kenyan tourism, our team of local experts brings you authentic and immersive travel experiences. We're committed to sustainable tourism that benefits local communities and preserves Kenya's natural wonders for future generations.
               </p>
             </div>
 

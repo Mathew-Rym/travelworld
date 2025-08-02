@@ -46,8 +46,7 @@ const Footer = () => {
             <div className="logo">
               <img src={logo} alt="" />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                consectetur adipiscing elit.
+                Your trusted partner for unforgettable Kenyan safaris and beach getaways. Experience the magic of Africa with our expert-guided tours.
               </p>
 
               <div className="social__links d-flex align-items-center gap-4">
@@ -110,10 +109,10 @@ const Footer = () => {
                 </div>
                 <p className="mb-0">
                   <Link
-                    to="mailto:support@travelworld.com"
+                    to="mailto:info@travelworld.co.ke"
                     className="color-text"
                   >
-                    support@travelworld.com
+                    info@travelworld.co.ke
                   </Link>
                 </p>
               </ListGroupItem>
@@ -126,7 +125,7 @@ const Footer = () => {
                   <h6 className="mb-0">Phone:</h6>
                 </div>
                 <p className="mb-0">
-                  <Link to="tel:9876543210">+91 9876543210</Link>
+                  <Link to="tel:+254700000000">+254 700 000000</Link>
                 </p>
               </ListGroupItem>
 
@@ -137,7 +136,7 @@ const Footer = () => {
                   </span>
                   <h6 className="mb-0">Address:</h6>
                 </div>
-                <p className="mb-0">Pune, Maharashtra, India</p>
+                <p className="mb-0">Nairobi, Kenya</p>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -145,8 +144,8 @@ const Footer = () => {
           <Col lg="12" className="text-center pt-5">
             <p className="copyright">
               &copy; {year} Travel World. All Rights Reserved.
-              Designed and Developed By{" "}
-              <Link to="https://shuence.netlify.app">CodeShuence</Link>
+              Designed and Developed By{' '}
+              <Link to="https://github.com/Mathew-Rym" target="_blank" rel="noopener noreferrer">Rym</Link>
             </p>
           </Col>
         </Row>

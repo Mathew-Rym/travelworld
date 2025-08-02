@@ -1,0 +1,127 @@
+.ai-itinerary-section {
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 1;
+}
+
+.ai-itinerary-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+  z-index: -1;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.section__title h2 {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.section__title h2::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section__title p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+}
+
+.search__box {
+  position: relative;
+  width: 100%;
+}
+
+.search__box .search__icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
+.search__box input,
+.search__box .form-select {
+  padding-left: 45px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.search__box input:focus,
+.search__box .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-search {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.itinerary-results {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.day-card {
+  background: #f8f9fa;
+  border-left: 4px solid #0d6efd !important;
+  transition: all 0.3s ease;
+}
+
+.day-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-list li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .search__box {
+    margin-bottom: 15px;
+  }
+  
+  .btn-search {
+    width: 100%;
+  }
+  
+  .ai-itinerary-section::before {
+    height: 40%;
+  }
+}

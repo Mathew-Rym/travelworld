@@ -19,8 +19,7 @@ const Newsletter = () => {
                             <button className='btn newsletter__btn'>Subscribe</button>
                         </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies.
+                        <p>Join our travel community and be the first to know about exclusive safari deals, new tour packages, and insider tips for exploring Kenya's breathtaking landscapes and wildlife. Get travel inspiration straight to your inbox!
                         </p>
                     </div>
                 </Col>

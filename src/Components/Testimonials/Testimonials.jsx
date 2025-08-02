@@ -38,72 +38,62 @@ const Testimonials = () => {
   return (
     <Slider {...settings}>
         <div className="testimonials py-4 px-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
-               Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris.
+            <p>Our family safari with Travel World Kenya was absolutely magical! The guides were incredibly knowledgeable about the wildlife and made sure we saw the Big Five. The Great Migration in the Maasai Mara was a once-in-a-lifetime experience we'll never forget.
             </p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
                 <div>
-                    <h6 className="mb-0 mt-3">John Doe</h6>
-                    <p>Customer</p>
+                    <h6 className="mb-0 mt-3">James Wilson</h6>
+                    <p>From United States</p>
                 </div>
             </div>
         </div>
         <div className="testimonials py-4 px-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
-               Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris.
+            <p>Diani Beach was paradise on earth! The white sand, turquoise waters, and amazing marine life made our honeymoon unforgettable. The team at Travel World Kenya arranged everything perfectly - from the beachfront villa to the romantic dhow dinner cruise.
             </p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
                 <div>
-                    <h6 className="mb-0 mt-3">Lia Frank</h6>
-                    <p>Customer</p>
+                    <h6 className="mb-0 mt-3">Sarah Johnson</h6>
+                    <p>From United Kingdom</p>
                 </div>
             </div>
         </div>
         <div className="testimonials py-4 px-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
-               Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris.
+            <p>Climbing Mount Kenya was challenging but absolutely worth it! The guides from Travel World Kenya were professional and made sure we were safe throughout the trek. Waking up to the sunrise at Point Lenana was one of the most breathtaking moments of my life.
             </p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
                 <div>
-                    <h6 className="mb-0 mt-3">Stefan Hawking</h6>
-                    <p>Customer</p>
+                    <h6 className="mb-0 mt-3">David Kim</h6>
+                    <p>From South Korea</p>
                 </div>
             </div>
         </div>
         <div className="testimonials py-4 px-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
-               Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris.
+            <p>Climbing Mount Kenya was challenging but absolutely worth it! The guides from Travel World Kenya were professional and made sure we were safe throughout the trek. Waking up to the sunrise at Point Lenana was one of the most breathtaking moments of my life.
             </p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
                 <div>
-                    <h6 className="mb-0 mt-3">Stefan Hawking</h6>
-                    <p>Customer</p>
+                    <h6 className="mb-0 mt-3">David Kim</h6>
+                    <p>From South Korea</p>
                 </div>
             </div>
         </div>
         <div className="testimonials py-4 px-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Phasellus tempus massa vitae elit consectetur, ut convallis massa ultricies. 
-               Duis hendrerit turpis quis tincidunt lobortis. Nullam vel faucibus mauris.
+            <p>Climbing Mount Kenya was challenging but absolutely worth it! The guides from Travel World Kenya were professional and made sure we were safe throughout the trek. Waking up to the sunrise at Point Lenana was one of the most breathtaking moments of my life.
             </p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
                 <div>
-                    <h6 className="mb-0 mt-3">Stefan Hawking</h6>
-                    <p>Customer</p>
+                    <h6 className="mb-0 mt-3">David Kim</h6>
+                    <p>From South Korea</p>
                 </div>
             </div>
         </div>

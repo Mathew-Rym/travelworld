@@ -19,14 +19,18 @@ const About = () => {
                 <img src={worldImg} alt="" />
               </div>
               <h1>
-                Traveling Opens The Door To Creating{" "}
-                <span className="highlight">Memories</span>
+                Discover the Magic of Africa with{" "}
+                <span className="highlight">Travel World Kenya</span>
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus tempus massa vitae elit consectetur, ut convallis
-                massa ultricies. Duis hendrerit turpis quis tincidunt lobortis.
-                Nullam vel faucibus mauris.
+                Based in the heart of Nairobi, Travel World Kenya is your premier gateway to East Africa's most breathtaking destinations. 
+                From the sweeping savannas of the Maasai Mara to the pristine beaches of Diani, we specialize in crafting unforgettable 
+                Kenyan adventures that showcase the very best of our beautiful country.
+              </p>
+              <p>
+                Our team of local experts brings years of experience in creating personalized travel experiences that go beyond the 
+                ordinary. Whether you're seeking a luxury safari, a cultural immersion, or an adrenaline-fueled adventure, 
+                we're dedicated to making your African dream a reality.
               </p>
             </div>
           </Col>

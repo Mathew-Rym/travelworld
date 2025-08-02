@@ -10,6 +10,7 @@ import Newsletter from "../Shared/Newsletter";
 import axios from "axios";
 import { BASE_URL } from "../utils/config";
 import { AuthContext } from "../context/AuthContext";
+import mockBlogs from "../mockData/blogs";
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -25,11 +26,18 @@ const BlogDetails = () => {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`${BASE_URL}/blogs/${id}`);
+        const response = await axios.get(`${BASE_URL}/blogs/${id}`, { timeout: 3000 });
         setBlog(response.data);
         setLoading(false);
       } catch (error) {
-        setError("Error loading blog details.");
+        console.log("Using mock data as fallback");
+        const mockBlog = mockBlogs.find(blog => blog._id === id);
+        if (mockBlog) {
+          setBlog(mockBlog);
+          setError(null);
+        } else {
+          setError("Blog not found");
+        }
         setLoading(false);
       }
     };
