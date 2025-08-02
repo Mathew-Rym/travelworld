@@ -1,6 +1,12 @@
 {
-  "name": "safari-world",
-  "version": "0.1.0",
+  "name": "travelworld",
+  "version": "1.0.0",
+  "description": "A Fullstack Tours & Travels Web App Using MERN Stack",
+  "author": "Rym",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mathew-Rym/travelworld.git"
+  },
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
